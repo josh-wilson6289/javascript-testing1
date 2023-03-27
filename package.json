@@ -1,0 +1,22 @@
+{
+  "name": "javascript-testing1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-wilson6289/javascript-testing1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josh-wilson6289/javascript-testing1/issues"
+  },
+  "homepage": "https://github.com/josh-wilson6289/javascript-testing1#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.8.2"
+  }
+}
