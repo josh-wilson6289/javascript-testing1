@@ -1,4 +1,4 @@
-const {Builder} = require("selenium-webdriver");
+const { Builder, By, Key } = require("selenium-webdriver");
 
 async function example() {
   // launch the browser
@@ -6,10 +6,12 @@ async function example() {
   
   // navigate to application
   await driver.get("https://lambdatest.github.io/sample-todo-app/")
+
   //add a to-do
-
+  await driver.findElement(By.id("sampletodotext")).sendKeys("Learn Selenium", Key.RETURN);
+  
   // close the browser
-
+  await driver.quit();
 }
 
 example();
